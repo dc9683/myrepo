@@ -1,12 +1,14 @@
 package org.sparkexamples.first_example;
 
+import java.io.Serializable;
+
 import org.apache.spark.SparkContext;
 
 /**
  * Hello world!
  *
  */
-public class App 
+public class App implements Serializable
 {
     public static void main( String[] args )
     {
