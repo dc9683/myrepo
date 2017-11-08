@@ -16,4 +16,8 @@ public class App
     public static void startStream(SparkContext sc, int interval) {
     	System.out.println("DCH----DCH-----DCH");
     }
+    
+    public static void coba() {
+    	System.out.println("david coba !!!!!");
+    }
 }
